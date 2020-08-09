@@ -1,8 +1,18 @@
-body {
-    background: #ccc;
+/*
+################# Selectores #################
+*/
+
+/*Selector Universal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-h1 {
-    color: red;
-    font-size: 50px;
-    text-decoration: underline;
-}
+
+/*Selector de Etiqueta*/
+
+/*Selector de Identificador*/
+
+/*Selector de Clase*/
+
+/*Selector de Atributo*/
