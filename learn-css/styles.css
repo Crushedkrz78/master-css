@@ -88,3 +88,16 @@ input[type="submit"]{
     color: red;
     text-decoration: none;
 }
+
+/*Prioridad*/
+#saludo h1{
+    background: brown;
+}
+
+/*
+La propiedad '!important' establece la máxima prioridad que se le puede
+asignar a alguna regla de estilo dentro de algún selector
+*/
+h1{
+    background: purple !important;
+}
