@@ -1,10 +1,18 @@
+@font-face{
+    font-family: MontserratFontCustom;
+    src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
 h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mansalva', cursive;
+    /*font-family: Arial, Helvetica, sans-serif;*/
     font-style: italic;
+    text-transform: uppercase;
+    font-size: 45px;
 }
 
 h3{
-    font-family: "Comic Sans MS";
+    font-family: MontserratFontCustom, "Comic Sans MS";
     font-size: 25px;
     font-weight: lighter;
 }
