@@ -39,3 +39,34 @@ Ejercicio completo con HTML y CSS
     text-align: center;
     line-height: 90px;
 }
+
+#menu{
+    background-color: #eeeeee;
+}
+
+#menu ul li{
+    /*display: inline-block;*/
+    display: block;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+#menu ul li:hover{
+    background-color: rgb(16, 75, 143);
+    cursor: pointer;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
