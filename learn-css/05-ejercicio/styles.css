@@ -22,3 +22,10 @@ Ejercicio completo con HTML y CSS
     padding: 0px;
     text-decoration: none;
 }
+
+#general{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
