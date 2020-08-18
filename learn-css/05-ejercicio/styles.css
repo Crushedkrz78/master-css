@@ -70,3 +70,15 @@ Ejercicio completo con HTML y CSS
     float: none;
     clear: both;
 }
+
+#contenido{
+    width: 70%;
+    /*border: 1px solid green;*/
+    float: left;
+}
+
+#lateral{
+    width: 30%;
+    /*border: 1px solid red;*/
+    float: left;
+}
