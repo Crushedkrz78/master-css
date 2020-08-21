@@ -82,7 +82,9 @@ Ejercicio completo con HTML y CSS
     /*border: 1px solid red;*/
     float: left;
     min-height: 500px;
+    max-height: 650px;
     text-align: center;
+    overflow-y: scroll;
 }
 
 #contenido > h1{
