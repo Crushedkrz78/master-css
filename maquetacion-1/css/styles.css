@@ -48,6 +48,10 @@ a:visited{
     color: #0c73f2 !important;
 }
 
+.orange{
+    color: #d69d2a !important;
+}
+
 /*FORMULARIO*/
 input[type="text"],
 input[type="email"],
@@ -239,7 +243,7 @@ button:active{
 }
 
 #frase{
-    clear: both;
+    /*clear: both;*/
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -321,6 +325,7 @@ button:active{
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
+    margin-top: -20px;
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #cccccc;
@@ -346,4 +351,15 @@ button:active{
 #sections .date{
     color: grey;
     font-size: 14px;
+}
+
+#sections .stickerOne,
+#sections .stickerTwo{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .stickerTwo{
+    margin-left: 860px;
 }
