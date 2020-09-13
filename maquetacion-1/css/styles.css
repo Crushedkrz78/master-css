@@ -11,6 +11,17 @@
 }
 
 @font-face{
+    font-family: "icons";
+    src: url("fonts/websymbols-regular-webfont.svg#WebSynbolsRegular") format('svg'),
+         url("fonts/websymbols-regular-webfont.eot");
+    src: url("fonts/websymbols-regular-webfont.eot#iefix") format("embedded-opentype"),
+        url("fonts/websymbols-regular-webfont.woff") format("woff"),
+        url("fonts/websymbols-regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
     font-family: "fajala";
     src: url("fonts/FjallaOne-Regular.ttf") format('truetype');
     font-weight: normal;
@@ -50,6 +61,13 @@ a:visited{
 
 .orange{
     color: #d69d2a !important;
+}
+
+.icon{
+    font-family: "icons";
+    float: left;
+    margin-right: 5px;
+    margin-top: -2px;
 }
 
 /*FORMULARIO*/
