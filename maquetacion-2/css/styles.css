@@ -35,7 +35,7 @@ body{
 }
 
 .wrap{
-    width: 1200px;
+    width: 1250px;
     margin: 0px auto;
 }
 
@@ -48,7 +48,7 @@ body{
     color: white;
 }
 
-.gear{
+.gear, .icon{
     font-family: "WebSymbolsRegular";
 }
 
@@ -131,4 +131,18 @@ body{
     letter-spacing: 2px;
     text-shadow: 2px 2px 1px black;
     margin: 27px auto;
+}
+
+/*Tarjetas*/
+.card{
+    float: left;
+    width: 204px;
+    height: 305px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    background: white;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 22px;
+    margin-top: 40px;
 }
