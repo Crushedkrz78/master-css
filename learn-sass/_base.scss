@@ -121,8 +121,10 @@ h1{
     }
 }
 
-// Bucles
-
-// Each
-
-// While
+// Bucles - For
+$contador: 1;
+@for $contador from 1 to 8 {
+    .listado ul li:nth-child(#{$contador}){
+        font-size: $contador * 2px;
+    }
+}
