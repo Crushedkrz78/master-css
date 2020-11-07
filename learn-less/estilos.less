@@ -30,3 +30,29 @@ h1{
 .informacion{
     .sombras(5px);
 }
+
+// Operadores
+h1{
+    font-size: 30px + 7;
+}
+
+// Mixins condicionales
+.texto-negro(@value) when (@value=true){
+    color: black;
+}
+
+h1{
+    color: blue;
+    .texto-negro(true);
+}
+
+// Bucles
+.loop(@cont) when (@cont > 0){
+    .loop(@cont - 1);
+    height: ((900px / 2));
+}
+
+.informacion{
+    height: 900px;
+    .loop(5);
+}
