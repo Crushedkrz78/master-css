@@ -10,11 +10,15 @@ body{
     flex-wrap: wrap;*/
     flex-flow: row wrap;
     justify-content: space-around;
+    height: 600px;
+    align-items: flex-start;
     border: 3px solid black;
     padding: 5px;
 }
 
 .caja{
+    flex-grow: 1;
+    /*height: 120px;*/
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -26,17 +30,21 @@ body{
 }
 
 .red{
+    align-self: flex-start;
     background: var(--rojo);
 }
 
 .green{
+    margin-top: 10%;
     background: green;
 }
 
 .blue{
+    align-self: center;
     background: blue;
 }
 
 .orange{
+    align-self: flex-end;
     background: orange;
 }
