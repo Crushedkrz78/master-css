@@ -17,6 +17,8 @@ body{
         "menu menu menu menu menu"
         "lateral contenido contenido contenido contenido "
         "lateral pie pie pie pie";
+
+    /*grid-row-gap: 20px;*/
     
     width: 75%;
     height: 100vh;
