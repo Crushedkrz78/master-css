@@ -177,6 +177,23 @@
                             Esta es la información oculta
                         </div>
                     </div>
+                    <!--Barra de progreso-->
+                    <div class="progress mt-5">
+                        <div id="barra-progreso" class="progress-bar bg-success w-0" role="progressbar"></div>
+                    </div>
+
+                    <script>
+                        var cont = 0;
+                        setInterval(function(){
+                            if(cont <100){
+                                cont++;
+                            }
+                            var barra = document.querySelector("#barra-progreso");
+                            barra.style.width = cont + '%';
+                            barra.innerHTML = cont + '%';
+                        }, 500);
+                    </script>
+
                 </div>
             </div>
 
